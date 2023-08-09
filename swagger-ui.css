@@ -1,18 +1,7 @@
-body{
-
-    background: linear-gradient(60deg, #04B5B5, #2F6464);
-}
-
-
-.swagger-container{
+.swagger-ui {
     color: #3b4151;
     font-family: sans-serif;
     margin-top: -40px;
-    margin: 50px;
-    padding: 5px 5px;
-    border-radius: 10px;
-    background: rgba(255, 255, 255, 0.4);
-    backdrop-filter: blur(20px);
 }
 
 .swagger-ui html {
@@ -240,8 +229,6 @@ body{
 .swagger-ui .border-box,.swagger-ui a,.swagger-ui article,.swagger-ui body,.swagger-ui code,.swagger-ui dd,.swagger-ui div,.swagger-ui dl,.swagger-ui dt,.swagger-ui fieldset,.swagger-ui footer,.swagger-ui form,.swagger-ui h1,.swagger-ui h2,.swagger-ui h3,.swagger-ui h4,.swagger-ui h5,.swagger-ui h6,.swagger-ui header,.swagger-ui html,.swagger-ui input[type=email],.swagger-ui input[type=number],.swagger-ui input[type=password],.swagger-ui input[type=tel],.swagger-ui input[type=text],.swagger-ui input[type=url],.swagger-ui legend,.swagger-ui li,.swagger-ui main,.swagger-ui ol,.swagger-ui p,.swagger-ui pre,.swagger-ui section,.swagger-ui table,.swagger-ui td,.swagger-ui textarea,.swagger-ui th,.swagger-ui tr,.swagger-ui ul {
     box-sizing: border-box
 }
-
-
 
 .swagger-ui .aspect-ratio {
     height: 0;
@@ -9174,6 +9161,7 @@ body{
 
 .swagger-ui .opblock .opblock-section-header {
     align-items: center;
+    background: hsla(0,0%,100%,.8);
     box-shadow: 0 1px 2px rgba(0,0,0,.1);
     display: flex;
     min-height: 50px;
@@ -9327,7 +9315,6 @@ body{
 
 .swagger-ui .opblock.opblock-get {
     background: rgba(97,175,254,.1);
-    backdrop-filter: blur(50px);
     border-color: #61affe
 }
 
@@ -9490,7 +9477,7 @@ body{
     font-family: sans-serif;
     font-size: 12px;
     margin: 0 0 5px;
-    padding: 10px 20px
+    padding: 15px 20px
 }
 
 .swagger-ui .opblock-description-wrapper h4,.swagger-ui .opblock-external-docs-wrapper h4,.swagger-ui .opblock-title_normal h4 {
@@ -9658,12 +9645,9 @@ body{
     text-align: center;
     align-element: center;
     border-radius: 10px;
+    background: lightgray;
     margin: 0 50px 20px;
-    padding: 30px 0;
-
-    background: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(20px);
-
+    padding: 30px 0
 }
 
 .swagger-ui .scheme-container .schemes {
@@ -10622,10 +10606,6 @@ body{
     margin-bottom: 2em
 }
 
-.servers select {
-    color: rgb(25, 252, 25);
-}
-
 .swagger-ui table {
     border-collapse: collapse;
     padding: 0 10px;
@@ -10788,7 +10768,7 @@ body{
 }
 
 .swagger-ui .info hgroup.main a {
-    display: none;
+    font-size: 12px
 }
 
 .swagger-ui .info pre {
@@ -10807,14 +10787,14 @@ body{
 }
 
 .swagger-ui .info a {
-    color: #124075;
+    color: #4990e2;
     font-family: sans-serif;
     font-size: 14px;
     transition: all .4s
 }
 
 .swagger-ui .info a:hover {
-    color: #092444
+    color: #1f69c0
 }
 
 .swagger-ui .info>div {
@@ -11048,5 +11028,3 @@ body{
 .swagger-ui .markdown pre>code,.swagger-ui .renderedMarkdown pre>code {
     display: block
 }
-
-/*# sourceMappingURL=swagger-ui.css.map*/
