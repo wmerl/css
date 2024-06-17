@@ -1,7 +1,7 @@
 .swagger-ui {
-    color: #3b4151;
+    color: #161617;
     font-family: sans-serif;
-    margin-top: -40px;
+    margin: 100px 100px;
 }
 
 .swagger-ui html {
@@ -10,8 +10,17 @@
     line-height: 1.15
 }
 
+.swagger-ui, html, body {
+    background-color: transparent;
+}
+
+html {
+    background: rgb(187,224,230);
+    background: radial-gradient(circle, rgba(187,224,230,1) 21%, rgba(149,202,211,1) 54%, rgba(112,174,184,1) 100%);
+}
+
 .swagger-ui body {
-    margin: 0
+    margin: 100px;
 }
 
 .swagger-ui article,.swagger-ui aside,.swagger-ui footer,.swagger-ui header,.swagger-ui nav,.swagger-ui section {
